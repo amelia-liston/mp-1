@@ -62,7 +62,7 @@ main{
     padding: 2vh 2vw;
 }
 
-#school{
+.school{
     border-left: 6px solid green;
 }
 
@@ -73,7 +73,7 @@ main h2{
     text-align: center;
 }
 
-#school-title{
+.school-title{
     font-size: calc(1.75px + 1.75vw);
     margin: 0vw 1vw;
 }

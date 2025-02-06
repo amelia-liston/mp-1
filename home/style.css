@@ -14,6 +14,8 @@ header{
     display: flex;
     flex-direction: column;
     padding: 1vh 1vw;
+    background-color: rgb(1, 141, 228);
+    color: white;
 }
 /*Header ends*/
 
