@@ -31,6 +31,16 @@
              <!-- Navigation ends here -->
              <!-- Main content starts here -->
                  <main>
+                    <div id="calculator">
+                        <label for="num1">First Number: </label><input id="num1">
+                        <label for="num2">Second Number: </label><input id="num2">
+                        <button onclick="Add()">+</button>
+                        <button onclick="Subtract()">-</button>
+                        <button onclick="Multiply()">*</button>
+                        <button onclick="Divide()">/</button>
+                        <button onclick="Power()">**</button>
+                        <button onclick="Clear()">Clear</button>
+                    </div>
                     <h2>Technical Projects</h2>
                     <div class="project">
                         <h3 class="project-title">AccessiScan</h3>
@@ -86,5 +96,6 @@
              </footer>
          </div>
          <!-- End of page wrapper -->
+         <script src="projects.js"></script>
      </body>
 </html>
