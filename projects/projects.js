@@ -9,6 +9,11 @@ function addition() {
     const num2 = Number(num2Input);
 
     const result = num1 + num2;
+    if (result < 0){
+        document.getElementById("output").style.color = "red";
+    } else {
+        document.getElementById("output").style.color = "black";
+    }
 
     document.getElementById("output").innerHTML = String(result);
     
@@ -23,6 +28,11 @@ function subtraction() {
     const num2 = Number(num2Input);
 
     const result = num1 - num2;
+    if (result < 0){
+        document.getElementById("output").style.color = "red";
+    } else {
+        document.getElementById("output").style.color = "black";
+    }
 
     document.getElementById("output").innerHTML = String(result);
 }
@@ -36,6 +46,11 @@ function multiply(){
     const num2 = Number(num2Input);
 
     const result = num1 * num2;
+    if (result < 0){
+        document.getElementById("output").style.color = "red";
+    } else {
+        document.getElementById("output").style.color = "black";
+    }
 
     document.getElementById("output").innerHTML = String(result);
 
@@ -50,6 +65,11 @@ function divide(){
     const num2 = Number(num2Input);
 
     const result = num1 / num2;
+    if (result < 0){
+        document.getElementById("output").style.color = "red";
+    } else {
+        document.getElementById("output").style.color = "black";
+    }
 
     document.getElementById("output").innerHTML = String(result);
 }
