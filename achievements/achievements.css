@@ -73,6 +73,7 @@ main{
 main h2{
     font-size: calc(2px + 2vw);
     margin: 2vw 0;
+    text-align: center;
 }
 
 main h3{
@@ -83,6 +84,10 @@ main h3{
 
 main p{
     margin: 1vw 1vw;
+    font-size: calc(1.5px + 1.5vw);
+}
+
+ul {
     font-size: calc(1.5px + 1.5vw);
 }
 
