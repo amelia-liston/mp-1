@@ -73,7 +73,7 @@ main h2{
     text-align: center;
 }
 
-#exp-title{
+.exp-title{
     font-size: calc(1.5px + 1.5vw);
     margin: 0vw 1vw;
 }
