@@ -31,18 +31,6 @@
              <!-- Navigation ends here -->
              <!-- Main content starts here -->
                  <main>
-                    <div id="calculator">
-                        <label for="num1">First Number: </label><input type="text" id="num1">
-                        <label for="num2">Second Number: </label><input type="text" id="num2">
-                        <button onclick="addition()">+</button>
-                        <button onclick="subtraction()">-</button>
-                        <button onclick="multiply()">*</button>
-                        <button onclick="divide()">/</button>
-                        <button onclick="power()">**</button>
-                        <button onclick="clearAll()">Clear</button>
-
-                        <h3 id="output"></h3>
-                    </div>
                     <h2>Technical Projects</h2>
                     <div class="project">
                         <h3 class="project-title">AccessiScan</h3>
@@ -89,6 +77,26 @@
                             this project called Space News. We were given the code for general structure of the website, and were tasked with adding a News page and 
                             About page. The news page focused on space-related news using Next.js and Ant Design components. The website fetches and displays articles from a public API, and I used various components like article cards, lists, and tables to organize the content. Additionally, I implemented features such as pagination, search functionality, and summary statistics.
                         </p>
+                    </div>
+
+                    <div id="calculator">
+                        <h2>Calculator</h2>
+                        <div id="calc-inputs">
+                            <label for="num1" id="label1">First Number: </label><input type="text" id="num1">
+                            <label for="num2" id="label2">Second Number: </label><input type="text" id="num2">
+                        </div>
+                        <div id="calc-buttons">
+                            <button onclick="addition()" id="calc-btn">+</button>
+                            <button onclick="subtraction()" id="calc-btn">-</button>
+                            <button onclick="multiply()" id="calc-btn">*</button>
+                            <button onclick="divide()" id="calc-btn">/</button>
+                            <button onclick="power()" id="calc-btn">**</button>
+                            <button onclick="clearAll()" id="calc-btn">Clear</button>
+                        </div>
+                        <div id="result-output">
+                            <h4>Result:</h4>
+                            <h4 id="output"></h4>
+                        </div>
                     </div>
                  </main>
              </div>

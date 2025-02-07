@@ -103,6 +103,43 @@ footer{
     justify-content: space-evenly;
 }
 
+/* Caluclator styling */
+#calculator{
+    align-items: center;
+}
+
+#calc-inputs{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    align-items: center;
+}
+
+.num1{
+    margin-bottom: 20%;
+}
+
+#calc-buttons{
+    text-align: center;
+    padding: 1% .5%;   
+}
+
+input{
+    border-color: green;
+}
+
+button{
+    background-color: rgb(103, 178, 103);
+    border-radius: 10%;
+    border-color: green;
+    padding: 1% 2%; 
+    font-size: calc(1px + 1vw);
+}
+
+#result-output{
+    text-align: center;
+}
+
 @media screen and (max-width: 750px){
     header {
         align-items: center;

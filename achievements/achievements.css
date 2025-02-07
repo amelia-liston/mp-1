@@ -62,7 +62,7 @@ main{
     padding: 2vh 2vw;
 }
 
-#award{
+.award{
     border-left: 6px solid green;
 }
 
