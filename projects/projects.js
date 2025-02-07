@@ -76,10 +76,33 @@ function divide(){
 
 //Power
 function power(){
+    const num1Input = document.getElementById("num1").value;
+    const num1 = Number(num1Input);
+
+    const num2Input = document.getElementById("num2").value;
+    const num2 = Number(num2Input);
+
+    let currentNum = 1;
+    //if input number 2 is negative, make num1 its reciprocol
+    if (num2 < 0){
+        const pos2 = num2 * -1;
+        for (let i = 0; i < pos2; i++){
+            currentNum = currentNum * (1/num1);
+        }
+    // else if input number 2 is not negative
+    } else {
+        for (let i = 0; i < num2; i++){
+            currentNum = currentNum * num1;
+        }
+    }
+    document.getElementById("output").innerHTML = String(currentNum);
 
 }
 
 //Clear
 function clearAll(){
     document.getElementById("output").innerHTML = "";
+    document.getElementById("num1").value = "";
+    document.getElementById("num2").value = "";
+
 }
