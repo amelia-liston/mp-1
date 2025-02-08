@@ -50,13 +50,12 @@ nav li{
     padding: 2vh 0;
     margin: 5vh auto;
     border-radius: 7%;
-    text-decoration: none;
-    color: rebeccapurple;
 }
 
 
 nav a{
     text-decoration: none;
+    color: rebeccapurple;
 }
 
 /*Main section styling */

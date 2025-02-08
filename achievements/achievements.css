@@ -55,6 +55,7 @@ nav li{
 
 nav a{
     text-decoration: none;
+    color: rebeccapurple;
 }
 
 /*Main section styling */
@@ -135,8 +136,6 @@ footer{
         background-color:rgb(206, 206, 247);
         padding: 1% .5%;
         margin: 1% .5%;
-        text-decoration: none;
-        color: rebeccapurple;
     }
 
     nav a{
