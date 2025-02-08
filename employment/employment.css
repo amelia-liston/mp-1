@@ -84,11 +84,6 @@ main h4{
 }
 
 
-main p{
-    margin: 1vw 1vw;
-    font-size: calc(1.25px + 1.25vw);
-}
-
 ul {
     font-size: calc(1.25px + 1.25vw);
 }

@@ -71,23 +71,33 @@ main h2{
     font-size: calc(2px + 2vw);
     margin: 2vw 0;
     text-align: center;
-}
 
+}
+/* Project title */
+
+main h3{
+    font-size: calc(1.75px + 1.75vw);
+}
 .project-title{
-    font-size: calc(1.5px + 1.5vw);
-    margin: 0vw 1vw;
+    margin: 0 1vw;
 }
 
+/* Project skills */
 main h4{
-    margin: 0vw 1vw;
-    font-size: calc(1.25px + 1.25vw);
+    margin: 0 1vw;
+    font-size: calc(1.5px + 1.5vw);
 }
 
-
+/* Project description */
 main p{
     margin: 1vw 1vw;
     font-size: calc(1.25px + 1.25vw);
 }
+
+/*#project-description{*/
+/*    margin: 1vw 1vw;*/
+/*    font-size: calc(1.75px + 1.75vw);*/
+/*}*/
 
 ul {
     font-size: calc(1.25px + 1.25vw);
