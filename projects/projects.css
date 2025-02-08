@@ -14,6 +14,9 @@ header{
     display: flex;
     flex-direction: column;
     padding: 1vh 1vw;
+    background-color: lavender;
+    color: rebeccapurple;
+    border: 0.5vw solid rebeccapurple;
 }
 /*Header ends*/
 
@@ -46,6 +49,7 @@ nav li{
     background-color:rgb(206, 206, 247);
     padding: 2vh 0;
     margin: 5vh auto;
+    border-radius: 7%;
 }
 
 
