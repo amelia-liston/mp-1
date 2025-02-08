@@ -63,7 +63,7 @@ main{
 }
 
 .project{
-    /* border-left: 6px solid green; */
+    border-left: 6px solid green;
 }
 
 
@@ -103,7 +103,7 @@ footer{
     justify-content: space-evenly;
 }
 
-/* Caluclator styling */
+/* Calculator styling */
 #calculator{
     align-items: center;
 }

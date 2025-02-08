@@ -83,7 +83,7 @@ function power(){
     const num2 = Number(num2Input);
 
     let currentNum = 1;
-    //if input number 2 is negative, make num1 its reciprocol
+    //if input number 2 is negative, make num1 its reciprocal
     if (num2 < 0){
         const pos2 = num2 * -1;
         for (let i = 0; i < pos2; i++){
